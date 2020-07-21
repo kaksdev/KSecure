@@ -8,6 +8,7 @@ Simple encrypt and decrypt
 # Normal Encrypt And Decrypt
 string encryptedText = KSecure.Normal.Encrypt(plainText, password);
 string plainText = KSecure.Normal.Decrypt(encryptedText, password);
+string hashedText = KSecure.Normal.Hash(plainText)
 ```
 
 
